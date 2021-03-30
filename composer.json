@@ -1,0 +1,25 @@
+{
+  "name": "komakino/mando",
+  "description": "Characters from the tv show The Mandalorian",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Salem Sallnäs",
+      "email": "salem.sallnas@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Komakino\\Mando\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "Komakino\\Mando\\MandoServiceProvider"
+        ]
+    }
+  }
+}
